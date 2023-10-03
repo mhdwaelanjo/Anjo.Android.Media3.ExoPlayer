@@ -1,0 +1,12 @@
+﻿<metadata>
+  <!--
+  This sample removes the class: android.support.v4.content.AsyncTaskLoader.LoadTask:
+  <remove-node path="/api/package[@name='android.support.v4.content']/class[@name='AsyncTaskLoader.LoadTask']" />
+  
+  This sample removes the method: android.support.v4.content.CursorLoader.loadInBackground:
+  <remove-node path="/api/package[@name='android.support.v4.content']/class[@name='CursorLoader']/method[@name='loadInBackground']" />
+  -->
+
+  <attr name="return" path="/api/package[@name='androidx.media3.datasource.cronet']/class[@name='CronetDataSource.Factory']/method[@name='createDataSource' and count(parameter)=0]">Androidx.Media3.Datasource.IDataSource</attr>
+
+</metadata>

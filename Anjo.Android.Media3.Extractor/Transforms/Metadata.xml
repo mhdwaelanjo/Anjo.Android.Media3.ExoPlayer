@@ -175,8 +175,6 @@
 
 	<remove-node path="/api/package[@name='androidx.media3.extractor.text']/class[@name='SimpleSubtitleDecoder']" />
 
-	<remove-node path="/api/package[@name='androidx.media3.extractor.metadata.id3']/class[@name='TextInformationFrame']/method[@name='populateMediaMetadata' and count(parameter)=1 and parameter[1][@type='androidx.media3.extractor.MediaMetadata.Builder']]" />
-	
 	<remove-node path="/api/package[@name='androidx.media3.extractor.metadata.id3']/class[@name='ApicFrame']/method[@name='populateMediaMetadata' and count(parameter)=1 and parameter[1][@type='androidx.media3.common.MediaMetadata.Builder']]" />
 	<remove-node path="/api/package[@name='androidx.media3.extractor.metadata.id3']/class[@name='TextInformationFrame']/method[@name='populateMediaMetadata' and count(parameter)=1 and parameter[1][@type='androidx.media3.common.MediaMetadata.Builder']]" />
 

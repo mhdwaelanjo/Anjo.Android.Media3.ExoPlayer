@@ -3,51 +3,53 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.7.34031.279
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Anjo.Android.Media3.ExoPlayer", "Anjo.Android.Media3.ExoPlayer\Anjo.Android.Media3.ExoPlayer.csproj", "{2530EB3A-F8FE-4742-AC88-13ECDAF32A6E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Anjo.Android.Media3.ExoPlayer", "Anjo.Android.Media3.ExoPlayer\Anjo.Android.Media3.ExoPlayer.csproj", "{2530EB3A-F8FE-4742-AC88-13ECDAF32A6E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Anjo.Android.Media3.Common", "Anjo.Android.Media3.Common\Anjo.Android.Media3.Common.csproj", "{064648CA-DC04-4820-90EF-D3831981AFD3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Anjo.Android.Media3.Common", "Anjo.Android.Media3.Common\Anjo.Android.Media3.Common.csproj", "{064648CA-DC04-4820-90EF-D3831981AFD3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Anjo.Android.Media3.Container", "Anjo.Android.Media3.Container\Anjo.Android.Media3.Container.csproj", "{DF204A53-811A-4E09-96A9-BEEB80DB156A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Anjo.Android.Media3.Container", "Anjo.Android.Media3.Container\Anjo.Android.Media3.Container.csproj", "{DF204A53-811A-4E09-96A9-BEEB80DB156A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Anjo.Android.Media3.Database", "Anjo.Android.Media3.Database\Anjo.Android.Media3.Database.csproj", "{90D45B3D-9BD4-41C4-8E63-40CA7864727D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Anjo.Android.Media3.Database", "Anjo.Android.Media3.Database\Anjo.Android.Media3.Database.csproj", "{90D45B3D-9BD4-41C4-8E63-40CA7864727D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Anjo.Android.Media3.DataSource", "Anjo.Android.Media3.DataSource\Anjo.Android.Media3.DataSource.csproj", "{29C26A4A-794D-4E01-BA82-D0B4E1B0EF6C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Anjo.Android.Media3.DataSource", "Anjo.Android.Media3.DataSource\Anjo.Android.Media3.DataSource.csproj", "{29C26A4A-794D-4E01-BA82-D0B4E1B0EF6C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Anjo.Android.Media3.Decoder", "Anjo.Android.Media3.Decoder\Anjo.Android.Media3.Decoder.csproj", "{65109C2E-FE50-44A0-842B-30C6CC875F3D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Anjo.Android.Media3.Decoder", "Anjo.Android.Media3.Decoder\Anjo.Android.Media3.Decoder.csproj", "{65109C2E-FE50-44A0-842B-30C6CC875F3D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Anjo.Android.Media3.Extractor", "Anjo.Android.Media3.Extractor\Anjo.Android.Media3.Extractor.csproj", "{0C4BBEEB-8D7C-4A14-A3B7-1830F8288A76}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Anjo.Android.Media3.Extractor", "Anjo.Android.Media3.Extractor\Anjo.Android.Media3.Extractor.csproj", "{0C4BBEEB-8D7C-4A14-A3B7-1830F8288A76}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Anjo.Android.Media3.Cast", "Anjo.Android.Media3.Cast\Anjo.Android.Media3.Cast.csproj", "{7FF35E7A-E393-43BD-8A13-36E97A1D6932}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Anjo.Android.Media3.Cast", "Anjo.Android.Media3.Cast\Anjo.Android.Media3.Cast.csproj", "{7FF35E7A-E393-43BD-8A13-36E97A1D6932}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Anjo.Android.Media3.DataSource.Cronet", "Anjo.Android.Media3.DataSource.Cronet\Anjo.Android.Media3.DataSource.Cronet.csproj", "{8FD937AE-9EF8-4901-BDD4-FBF3BBEF27BD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Anjo.Android.Media3.DataSource.Cronet", "Anjo.Android.Media3.DataSource.Cronet\Anjo.Android.Media3.DataSource.Cronet.csproj", "{8FD937AE-9EF8-4901-BDD4-FBF3BBEF27BD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Anjo.Android.Media3.DataSource.OkHttp", "Anjo.Android.Media3.DataSource.OkHttp\Anjo.Android.Media3.DataSource.OkHttp.csproj", "{DB366DEF-8852-4C4F-B4AF-0B32DF3EEC3E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Anjo.Android.Media3.DataSource.OkHttp", "Anjo.Android.Media3.DataSource.OkHttp\Anjo.Android.Media3.DataSource.OkHttp.csproj", "{DB366DEF-8852-4C4F-B4AF-0B32DF3EEC3E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Anjo.Android.Media3.DataSource.Rtmp", "Anjo.Android.Media3.DataSource.Rtmp\Anjo.Android.Media3.DataSource.Rtmp.csproj", "{93DF0F9E-45B5-41D8-9876-0AA2A15DE313}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Anjo.Android.Media3.DataSource.Rtmp", "Anjo.Android.Media3.DataSource.Rtmp\Anjo.Android.Media3.DataSource.Rtmp.csproj", "{93DF0F9E-45B5-41D8-9876-0AA2A15DE313}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Anjo.Android.Media3.ExoPlayer.Dash", "Anjo.Android.Media3.ExoPlayer.Dash\Anjo.Android.Media3.ExoPlayer.Dash.csproj", "{D9F6BD59-5E7D-4F1C-854A-1CB03CC0A387}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Anjo.Android.Media3.ExoPlayer.Dash", "Anjo.Android.Media3.ExoPlayer.Dash\Anjo.Android.Media3.ExoPlayer.Dash.csproj", "{D9F6BD59-5E7D-4F1C-854A-1CB03CC0A387}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Anjo.Android.Media3.ExoPlayer.Hls", "Anjo.Android.Media3.ExoPlayer.Hls\Anjo.Android.Media3.ExoPlayer.Hls.csproj", "{C0F860BC-291A-45E3-9FA2-D5503C9CB431}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Anjo.Android.Media3.ExoPlayer.Hls", "Anjo.Android.Media3.ExoPlayer.Hls\Anjo.Android.Media3.ExoPlayer.Hls.csproj", "{C0F860BC-291A-45E3-9FA2-D5503C9CB431}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Anjo.Android.Media3.ExoPlayer.Ima", "Anjo.Android.Media3.ExoPlayer.Ima\Anjo.Android.Media3.ExoPlayer.Ima.csproj", "{8F5E25F3-7EA1-4759-9C11-0381B051F1F2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Anjo.Android.Media3.ExoPlayer.Ima", "Anjo.Android.Media3.ExoPlayer.Ima\Anjo.Android.Media3.ExoPlayer.Ima.csproj", "{8F5E25F3-7EA1-4759-9C11-0381B051F1F2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Anjo.Android.Media3.ExoPlayer.Rtsp", "Anjo.Android.Media3.ExoPlayer.Rtsp\Anjo.Android.Media3.ExoPlayer.Rtsp.csproj", "{9F2A4979-9CA8-4E2C-A1A1-BE9F8F7EC0BB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Anjo.Android.Media3.ExoPlayer.Rtsp", "Anjo.Android.Media3.ExoPlayer.Rtsp\Anjo.Android.Media3.ExoPlayer.Rtsp.csproj", "{9F2A4979-9CA8-4E2C-A1A1-BE9F8F7EC0BB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Anjo.Android.Media3.ExoPlayer.WorkManager", "Anjo.Android.Media3.ExoPlayer.WorkManager\Anjo.Android.Media3.ExoPlayer.WorkManager.csproj", "{9CC0DC56-650D-4723-B757-E1A68381036D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Anjo.Android.Media3.ExoPlayer.WorkManager", "Anjo.Android.Media3.ExoPlayer.WorkManager\Anjo.Android.Media3.ExoPlayer.WorkManager.csproj", "{9CC0DC56-650D-4723-B757-E1A68381036D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Anjo.Android.Media3.ExoPlayer.SmoothStreaming", "Anjo.Android.Media3.ExoPlayer.SmoothStreaming\Anjo.Android.Media3.ExoPlayer.SmoothStreaming.csproj", "{951C8F29-BB38-425E-8F69-105DA54CE743}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Anjo.Android.Media3.ExoPlayer.SmoothStreaming", "Anjo.Android.Media3.ExoPlayer.SmoothStreaming\Anjo.Android.Media3.ExoPlayer.SmoothStreaming.csproj", "{951C8F29-BB38-425E-8F69-105DA54CE743}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Anjo.Android.Media3.Muxer", "Anjo.Android.Media3.Muxer\Anjo.Android.Media3.Muxer.csproj", "{F965FD6C-D809-4B81-9121-1FC9BF5A17A5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Anjo.Android.Media3.Muxer", "Anjo.Android.Media3.Muxer\Anjo.Android.Media3.Muxer.csproj", "{F965FD6C-D809-4B81-9121-1FC9BF5A17A5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Anjo.Android.Media3.Session", "Anjo.Android.Media3.Session\Anjo.Android.Media3.Session.csproj", "{110A4D07-F656-4F5C-A525-1753E72C51D9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Anjo.Android.Media3.Session", "Anjo.Android.Media3.Session\Anjo.Android.Media3.Session.csproj", "{110A4D07-F656-4F5C-A525-1753E72C51D9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Anjo.Android.Media3.Transformer", "Anjo.Android.Media3.Transformer\Anjo.Android.Media3.Transformer.csproj", "{EB7189FD-4EDE-4177-987C-013C13BF82A1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Anjo.Android.Media3.Transformer", "Anjo.Android.Media3.Transformer\Anjo.Android.Media3.Transformer.csproj", "{EB7189FD-4EDE-4177-987C-013C13BF82A1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Anjo.Android.Media3.Ui", "Anjo.Android.Media3.Ui\Anjo.Android.Media3.Ui.csproj", "{22134086-32CD-42A7-83CE-9B6FA9EAD4FE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Anjo.Android.Media3.Ui", "Anjo.Android.Media3.Ui\Anjo.Android.Media3.Ui.csproj", "{22134086-32CD-42A7-83CE-9B6FA9EAD4FE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Anjo.Android.Media3.Ui.Leanback", "Anjo.Android.Media3.Ui.Leanback\Anjo.Android.Media3.Ui.Leanback.csproj", "{2F548B0F-8F06-477C-9843-F3823E17302E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Anjo.Android.Media3.Ui.Leanback", "Anjo.Android.Media3.Ui.Leanback\Anjo.Android.Media3.Ui.Leanback.csproj", "{2F548B0F-8F06-477C-9843-F3823E17302E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Anjo.Android.Media3.Effect", "Anjo.Android.Media3.Effect\Anjo.Android.Media3.Effect.csproj", "{64E61994-E6DA-4BC4-9086-E8EB3553A5C6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Anjo.Android.Media3.Effect", "Anjo.Android.Media3.Effect\Anjo.Android.Media3.Effect.csproj", "{64E61994-E6DA-4BC4-9086-E8EB3553A5C6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Anjo.Android.Media3.ExoPlayer.Midi", "Anjo.Android.Media3.ExoPlayer.Midi\Anjo.Android.Media3.ExoPlayer.Midi.csproj", "{A9B61E07-508B-4B96-9C2E-5967377E92D2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -147,6 +149,10 @@ Global
 		{64E61994-E6DA-4BC4-9086-E8EB3553A5C6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{64E61994-E6DA-4BC4-9086-E8EB3553A5C6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{64E61994-E6DA-4BC4-9086-E8EB3553A5C6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A9B61E07-508B-4B96-9C2E-5967377E92D2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A9B61E07-508B-4B96-9C2E-5967377E92D2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A9B61E07-508B-4B96-9C2E-5967377E92D2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A9B61E07-508B-4B96-9C2E-5967377E92D2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

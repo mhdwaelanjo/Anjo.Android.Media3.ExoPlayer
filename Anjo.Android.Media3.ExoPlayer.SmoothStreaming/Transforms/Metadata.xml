@@ -31,4 +31,7 @@
 	<attr name="visibility" path="/api/package[@name='androidx.media3.exoplayer.smoothstreaming.offline']/class[@name='SsDownloader']/method[@name='getSegments' and count(parameter)=3 and parameter[1][@type='androidx.media3.datasource.DataSource'] and parameter[2][@type='androidx.media3.exoplayer.smoothstreaming.manifest.SsManifest'] and parameter[3][@type='boolean']]">protected</attr>
 	<attr name="type" path="/api/package[@name='androidx.media3.exoplayer.smoothstreaming.offline']/class[@name='SsDownloader']/method[@name='getSegments' and count(parameter)=3 and parameter[1][@type='androidx.media3.datasource.DataSource'] and parameter[2][@type='androidx.media3.exoplayer.smoothstreaming.manifest.SsManifest'] and parameter[3][@type='boolean']]/parameter[2]">Java.Lang.Object</attr>
 
+	<attr name="final" path="/api/package[@name='androidx.media3.exoplayer.smoothstreaming']/class[@name='SsMediaSource']/method[@name='canUpdateMediaItem' and count(parameter)=1 and parameter[1][@type='androidx.media3.common.MediaItem']]">true</attr>
+	<attr name="final" path="/api/package[@name='androidx.media3.exoplayer.smoothstreaming']/class[@name='SsMediaSource']/method[@name='updateMediaItem' and count(parameter)=1 and parameter[1][@type='androidx.media3.common.MediaItem']]">true</attr>
+
 </metadata>

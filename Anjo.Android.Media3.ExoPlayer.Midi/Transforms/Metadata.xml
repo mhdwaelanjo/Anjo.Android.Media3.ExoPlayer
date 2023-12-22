@@ -1,0 +1,27 @@
+﻿<metadata>
+	<!--
+  This sample removes the class: android.support.v4.content.AsyncTaskLoader.LoadTask:
+  <remove-node path="/api/package[@name='android.support.v4.content']/class[@name='AsyncTaskLoader.LoadTask']" />
+  
+  This sample removes the method: android.support.v4.content.CursorLoader.loadInBackground:
+  <remove-node path="/api/package[@name='android.support.v4.content']/class[@name='CursorLoader']/method[@name='loadInBackground']" />
+  -->
+
+	<remove-node path="/api/package[@name='androidx.media3.decoder.midi']/class[@name='MidiRenderer']"/>
+	<!--<remove-node path="/api/package[@name='androidx.media3.decoder.midi']/class[@name='MidiRenderer']/method[@name='createDecoder' and count(parameter)=2 and parameter[1][@type='androidx.media3.common.Format'] and parameter[2][@type='androidx.media3.decoder.CryptoConfig']]"/>
+	<add-node path="/api/package[@name='androidx.media3.decoder.midi']/class[@name='MidiRenderer']">
+		<method abstract="false" deprecated="not deprecated" final="false" name="CreateDecoder" native="false" return="Androidx.Media3.Decoder.Midi.MidiDecoder" static="false" synchronized="false" visibility="protected">
+			<parameter name="format" type="Androidx.Media3.Common.Format" />
+			<parameter name="cryptoConfig" type="Androidx.Media3.Decoder.ICryptoConfig" />
+		</method>
+	</add-node>
+
+	<remove-node path="/api/package[@name='androidx.media3.decoder.midi']/class[@name='MidiRenderer']/method[@name='CreateDecoder' and count(parameter)=2 and parameter[1][@type='Androidx.Media3.Common.Format'] and parameter[2][@type='Androidx.Media3.Decoder.ICryptoConfig']]"/>
+	<add-node path="/api/package[@name='androidx.media3.decoder.midi']/class[@name='MidiRenderer']">
+		<method abstract="false" deprecated="not deprecated" final="false" name="CreateDecoder" native="false" return="Androidx.Media3.Decoder.Midi.MidiDecoder" static="false" synchronized="false" visibility="protected">
+			<parameter name="format" type="Androidx.Media3.Common.Format" />
+			<parameter name="cryptoConfig" type="Androidx.Media3.Decoder.ICryptoConfig" />
+		</method>
+	</add-node>-->
+
+</metadata>

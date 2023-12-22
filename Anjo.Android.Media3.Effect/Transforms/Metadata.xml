@@ -19,8 +19,10 @@
 	<attr name="return" path="/api/package[@name='androidx.media3.effect']/interface[@name='RgbMatrix']/method[@name='toGlShaderProgram' and count(parameter)=2 and parameter[1][@type='android.content.Context'] and parameter[2][@type='boolean']]">Androidx.Media3.Effect.IGlShaderProgram</attr>
 	<attr name="return" path="/api/package[@name='androidx.media3.effect']/class[@name='OverlayEffect']/method[@name='toGlShaderProgram' and count(parameter)=2 and parameter[1][@type='android.content.Context'] and parameter[2][@type='boolean']]">Androidx.Media3.Effect.IGlShaderProgram</attr>
 	<attr name="return" path="/api/package[@name='androidx.media3.effect']/class[@name='HslAdjustment']/method[@name='toGlShaderProgram' and count(parameter)=2 and parameter[1][@type='android.content.Context'] and parameter[2][@type='boolean']]">Androidx.Media3.Effect.IGlShaderProgram</attr>
+	<attr name="return" path="/api/package[@name='androidx.media3.effect']/class[@name='AlphaScale']/method[@name='toGlShaderProgram' and count(parameter)=2 and parameter[1][@type='android.content.Context'] and parameter[2][@type='boolean']]">Androidx.Media3.Effect.IGlShaderProgram</attr>
 
 	<attr name="return" path="/api/package[@name='androidx.media3.effect']/class[@name='DefaultVideoFrameProcessor.Factory']/method[@name='create' and count(parameter)=8 and parameter[1][@type='android.content.Context'] and parameter[2][@type='java.util.List&lt;androidx.media3.common.Effect&gt;'] and parameter[3][@type='androidx.media3.common.DebugViewProvider'] and parameter[4][@type='androidx.media3.common.ColorInfo'] and parameter[5][@type='androidx.media3.common.ColorInfo'] and parameter[6][@type='boolean'] and parameter[7][@type='java.util.concurrent.Executor'] and parameter[8][@type='androidx.media3.common.VideoFrameProcessor.Listener']]">Androidx.Media3.Common.IVideoFrameProcessor</attr>
+	<attr name="return" path="/api/package[@name='androidx.media3.effect']/class[@name='DefaultVideoFrameProcessor.Factory']/method[@name='create' and count(parameter)=7 and parameter[1][@type='android.content.Context'] and parameter[2][@type='androidx.media3.common.DebugViewProvider'] and parameter[3][@type='androidx.media3.common.ColorInfo'] and parameter[4][@type='androidx.media3.common.ColorInfo'] and parameter[5][@type='boolean'] and parameter[6][@type='java.util.concurrent.Executor'] and parameter[7][@type='androidx.media3.common.VideoFrameProcessor.Listener']]">Androidx.Media3.Common.IVideoFrameProcessor</attr>
 
 	<remove-node path="/api/package[@name='androidx.media3.effect']/interface[@name='RgbMatrix']/method[@name='toGlTextureProcessor' and count(parameter)=2 and parameter[1][@type='android.content.Context'] and parameter[2][@type='boolean']]" />
 	<remove-node path="/api/package[@name='androidx.media3.effect']/interface[@name='ColorLut']/method[@name='toGlTextureProcessor' and count(parameter)=2 and parameter[1][@type='android.content.Context'] and parameter[2][@type='boolean']]" />
@@ -86,5 +88,8 @@
 			<parameter name="p0" type="long" />
 		</method>
 	</add-node>
+
+	<attr name="visibility" path="/api/package[@name='androidx.media3.effect']/class[@name='TexturePool']">public</attr>
+	<remove-node path="/api/package[@name='androidx.media3.effect']/interface[@name='VideoCompositor.Listener']/method[@name='onEnded' and count(parameter)=0]" />
 
 </metadata>

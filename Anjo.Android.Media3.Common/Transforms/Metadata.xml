@@ -1,12 +1,12 @@
 ﻿<metadata>
-  <!--
+	<!--
   This sample removes the class: android.support.v4.content.AsyncTaskLoader.LoadTask:
   <remove-node path="/api/package[@name='android.support.v4.content']/class[@name='AsyncTaskLoader.LoadTask']" />
   
   This sample removes the method: android.support.v4.content.CursorLoader.loadInBackground:
   <remove-node path="/api/package[@name='android.support.v4.content']/class[@name='CursorLoader']/method[@name='loadInBackground']" />
   -->
- 
+
 	<!-- Implementation of an interface method, or override of a method: a parameter or return type must be of the original type instead of a derived class (permitted in java) -->
 	<attr name="type" path="/api/package[@name='androidx.media3.common.upstream.cache']/class[@name='CacheSpan']/method[@name='compareTo']/parameter">java.lang.Object</attr>
 	<attr name="type" path="/api/package[@name='androidx.media3.common.source']/class[@name='ClippingMediaPeriod']/method[@name='onContinueLoadingRequested' and count(parameter)=1 and parameter[1][@type='androidx.media3.common.source.MediaPeriod']]/parameter">java.lang.Object</attr>
@@ -192,18 +192,25 @@
 	<remove-node path="/api/package[@name='androidx.media3.common']/interface[@name='SimpleBasePlayer.PositionSupplier']/method[@name='getExtrapolating' and count(parameter)=2 and parameter[1][@type='long'] and parameter[2][@type='float']]" />
 
 
-  <add-node path="/api/package[@name='androidx.media3.common']/class[@name='DrmInitData']">
-	  <method abstract="false" deprecated="not deprecated" final="false" name="Compare" native="false" return="int" static="false" synchronized="false" visibility="public">
-		  <parameter name="o1" type="Java.Lang.Object" />
-		  <parameter name="o2" type="Java.Lang.Object" />
-	  </method>
-  </add-node>
+	<add-node path="/api/package[@name='androidx.media3.common']/class[@name='DrmInitData']">
+		<method abstract="false" deprecated="not deprecated" final="false" name="Compare" native="false" return="int" static="false" synchronized="false" visibility="public">
+			<parameter name="o1" type="Java.Lang.Object" />
+			<parameter name="o2" type="Java.Lang.Object" />
+		</method>
+	</add-node>
 
-  <remove-node path="/api/package[@name='androidx.media3.common']/class[@name='StreamKey']/method[@name='compareTo' and count(parameter)=1 and parameter[1][@type='androidx.media3.common.StreamKey']]" />
-  <add-node path="/api/package[@name='androidx.media3.common']/class[@name='StreamKey']">
-	  <method abstract="false" deprecated="not deprecated" final="false" name="CompareTo" native="false" return="int" static="false" synchronized="false" visibility="public">
-		  <parameter name="o1" type="Java.Lang.Object" />
-	  </method>
-  </add-node>
+	<remove-node path="/api/package[@name='androidx.media3.common']/class[@name='StreamKey']/method[@name='compareTo' and count(parameter)=1 and parameter[1][@type='androidx.media3.common.StreamKey']]" />
+	<add-node path="/api/package[@name='androidx.media3.common']/class[@name='StreamKey']">
+		<method abstract="false" deprecated="not deprecated" final="false" name="CompareTo" native="false" return="int" static="false" synchronized="false" visibility="public">
+			<parameter name="o1" type="Java.Lang.Object" />
+		</method>
+	</add-node>
+
+	<attr name="return" path="/api/package[@name='androidx.media3.common.util']/class[@name='ConstantRateTimestampIterator']/method[@name='copyOf' and count(parameter)=0]">Androidx.Media3.Common.Util.ITimestampIterator</attr>
+
+	<!-- Rename duplicate event handler args -->
+	<attr name="argsType" path="/api/package[@name='androidx.media3.common']/interface[@name='VideoGraph.Listener']/method[@name='onError' and count(parameter)=1 and parameter[1][@type='androidx.media3.common.VideoFrameProcessingException']]">VideoGraphErrorEventArgs</attr>
+	<attr name="argsType" path="/api/package[@name='androidx.media3.common']/interface[@name='VideoGraph.Listener']/method[@name='onOutputFrameAvailableForRendering' and count(parameter)=1 and parameter[1][@type='long']]">VideoGraphOutputFrameAvailableForRenderingEventArgs</attr>
+	<attr name="argsType" path="/api/package[@name='androidx.media3.common']/interface[@name='VideoGraph.Listener']/method[@name='onOutputSizeChanged' and count(parameter)=2 and parameter[1][@type='int'] and parameter[2][@type='int']]">VideoGraphOutputSizeChangedEventArgs</attr>
 
 </metadata>

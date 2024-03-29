@@ -1,8 +1,9 @@
-# Anjo.Android.Media3.ExoPlayer
+﻿# Anjo.Android.Media3.ExoPlayer
 
 ---------------------------------
 ExoPlayer SDK for .NET for Android (formerly Xamarin.Android) Binding Library - Wael Anjo
 ---------------------------------
+[![NuGet](https://buildstats.info/nuget/Anjo.Android.Media3.ExoPlayer)](https://www.nuget.org/packages/Anjo.Android.Media3.ExoPlayer)
 
 A media player is an app-level component that allows playback of video and audio files. Such files can be stored locally or streamed over the Internet. Jetpack Media3 provides a Player interface that defines basic functionality such as the ability to play, pause, seek, and display track information.
 
@@ -18,6 +19,14 @@ Mappings : https://developer.android.com/guide/topics/media/exoplayer/mappings
 The release notes document : https://developer.android.com/jetpack/androidx/releases/media3 && https://github.com/androidx/media/blob/release/RELEASENOTES.md
 
 ---------------------------------
+### How To Use:
 ExoPlayer Android SDK : https://github.com/androidx/media
 
 Star on Github if this project helps you: https://github.com/mhdwaelanjo/Anjo.Android.Media3.ExoPlayer
+
+---------------------------------
+### Help & Feedback:
+- You can subscribe to the channel on the telegram [Anjo Help & Feedback](https://t.me/mhwaelanjo) to learn about the latest updates to my packages on [Nuget.com](https://www.nuget.org/profiles/MHWAELANJO)
+
+### SUPPORT:
+- ☕ Buy me a coffee: [By PayPal](https://www.paypal.com/paypalme/mhwaelanjo)

@@ -21,6 +21,7 @@
 	<attr name="return" path="/api/package[@name='androidx.media3.datasource']/class[@name='FileDataSource.Factory']/method[@name='createDataSource' and count(parameter)=0]">Androidx.Media3.Datasource.IDataSource</attr>
 	<attr name="return" path="/api/package[@name='androidx.media3.datasource']/class[@name='HttpDataSource.BaseFactory']/method[@name='createDataSource' and count(parameter)=0]">Androidx.Media3.Datasource.IDataSource</attr>
 	<attr name="return" path="/api/package[@name='androidx.media3.datasource']/interface[@name='HttpDataSource.Factory']/method[@name='createDataSource' and count(parameter)=0]">Androidx.Media3.Datasource.IDataSource</attr>
+	<attr name="return" path="/api/package[@name='androidx.media3.datasource']/class[@name='HttpEngineDataSource.Factory']/method[@name='createDataSource' and count(parameter)=0]">Androidx.Media3.Datasource.IDataSource</attr>
 
 	<attr name="return" path="/api/package[@name='androidx.media3.datasource']/class[@name='DefaultHttpDataSource.Factory']/method[@name='setDefaultRequestProperties' and count(parameter)=1 and parameter[1][@type='java.util.Map&lt;java.lang.String, java.lang.String&gt;']]">Androidx.Media3.Datasource.IHttpDataSource.IFactory</attr>
 
